@@ -1,4 +1,4 @@
-# 👋 Привет, я Ruslan!
+# 👋 Привет, я Руслан!
 
 ### 🚀 Обо мне
 
@@ -12,7 +12,3 @@
 | --------------------------------------------- | ------------------ | -------------- |
 | [🔍 Анализ данных](projects/2024-06_Project1) | Анализ продаж      | Python, Pandas |
 | [🤖 Чат-бот](projects/2024-07_Project2)       | Telegram-бот на AI | Python, NLP    |
-
-### 📊 Статистика GitHub
-
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ruspr&show_icons=true)
