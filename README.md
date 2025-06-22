@@ -18,7 +18,6 @@
 ### 📫 Контакты
 
 - Email: ruslanprashchurovich@gmail.com
-- LinkedIn: [linkedin.com/in/ruslanprashchurovich](https://linkedin.com/in/ruslanprashchurovich)
 - GitHub: [github.com/ruslanprashchurovich](https://github.com/ruslanprashchurovich)
 
 ---
