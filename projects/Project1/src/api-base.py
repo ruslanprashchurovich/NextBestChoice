@@ -1,4 +1,3 @@
-from pydantic import BaseModel
 from fastapi import FastAPI, HTTPException
 from sqlalchemy import create_engine
 import os
@@ -9,16 +8,7 @@ from datetime import datetime
 from loguru import logger
 import numpy as np
 from dotenv import load_dotenv
-
-
-# Pydantic модель для возвращаемых данных
-class PostGet(BaseModel):
-    id: int
-    text: str
-    topic: str
-
-    class Config:
-        from_attributes = True
+from schema import PostGet
 
 
 # Путь к файлу .env относительно текущего файла
@@ -30,7 +20,7 @@ dotenv_path = os.path.join(
 load_dotenv(dotenv_path)
 
 # Инициализация FastAPI и SQLAlchemy
-app = FastAPI()
+app = FastAPI(title="FastAPI")
 
 # Создаем URL для SQLAlchemy
 SQLALCHEMY_DATABASE_URL = (
