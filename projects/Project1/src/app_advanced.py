@@ -2,14 +2,13 @@ from fastapi import FastAPI, HTTPException
 from sqlalchemy import create_engine
 import os
 import pandas as pd
+import numpy as np
 from typing import List
 from catboost import CatBoostClassifier
 from datetime import datetime
 from loguru import logger
-import numpy as np
-from dotenv import load_dotenv
 from schema import PostGet
-
+from dotenv import load_dotenv
 
 # Путь к файлу .env относительно текущего файла
 dotenv_path = os.path.join(
@@ -70,22 +69,22 @@ def get_model_path(path: str) -> str:
 # Загрузка признаков из базы данных
 def load_features():
     try:
+
+        logger.info("Loading users features")
+        user_features = pd.read_sql("""SELECT * FROM public.user_data""", con=engine)
+
+        logger.info("Loading posts features")
+        posts_features = pd.read_sql(
+            """SELECT * FROM posts_info_deep_features_ruslan_prashchurovich""",
+            con=engine,
+        )
+
         logger.info("Loading liked posts")
         liked_posts_query = """
             SELECT DISTINCT post_id, user_id
             FROM public.feed_data
             WHERE action = 'like'"""
         liked_posts = batch_load_sql(liked_posts_query)
-
-        logger.info("Loading posts features")
-        posts_features = pd.read_sql(
-            """SELECT * FROM posts_info_features_ruslan_prashchurovich""", con=engine
-        )
-
-        logger.info("Loading users features")
-        user_features = pd.read_sql(
-            """SELECT * FROM users_info_features_ruslan_prashchurovich""", con=engine
-        )
 
         return [liked_posts, posts_features, user_features]
     except Exception as e:
@@ -96,7 +95,7 @@ def load_features():
 # Загрузка модели CatBoost
 def load_model():
     try:
-        model_path = get_model_path("catboost_model_base")
+        model_path = get_model_path("catboost_model_advanced.cbm")
         loaded_model = CatBoostClassifier()
         loaded_model.load_model(model_path)
         logger.info("Model loaded successfully")
@@ -155,6 +154,10 @@ def get_recommended_feed(id: int, time: datetime, limit: int):
         user_post_features["month_cos"] = np.cos(
             2 * np.pi * user_post_features["month"] / 12
         )
+
+        # Поменяем порядок признаков
+        order = model.feature_names_
+        user_post_features = user_post_features[order]
 
         # Предсказание вероятностей
         predicts = model.predict_proba(user_post_features)[:, 1]
