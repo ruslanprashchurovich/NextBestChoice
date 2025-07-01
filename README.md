@@ -34,7 +34,7 @@
 
 ### Бизнес-аналитика
 
-- MS Excel (Power Query, Power Pivot)
+- MS Excel (Power Query, Power Pivot), Google Sheets
 
 ---
 
@@ -43,8 +43,7 @@
 | Проект                                           | Описание                                        | Технологии                                     |
 | ------------------------------------------------ | ----------------------------------------------- | ---------------------------------------------- |
 | [🔍 Рекомендательная система](projects/Project1) | Система рекомендаций постов с A/B-тестированием | Python, PyTorch, FastAPI, PostgreSQL, CatBoost |
-| [🤖 Чат-бот](projects/Project2)                  | Telegram-бот с NLP-функционалом                 | Python, NLTK                                   |
-| [📊 Анализ продаж](projects/Project2)            | EDA и прогнозирование продаж                    | Python, Pandas, Scikit-learn                   |
+| [📊 Product Market Fit](projects/Project2)       | Анализ Retention Rate пользователей             | Python, SQL (ClickHouse), Pandas, Matplotlib   |
 
 ---
 
