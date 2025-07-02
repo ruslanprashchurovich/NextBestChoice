@@ -8,7 +8,7 @@
 
 ```bash
 git clone https://github.com/ruslanprashchurovich/ruslanprashchurovich.git
-cd your-repo-name
+cd ruslanprashchurovich
 ```
 
 ## 2. Создайте новую ветку:
