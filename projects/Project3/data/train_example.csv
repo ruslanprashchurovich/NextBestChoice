@@ -1,0 +1,6 @@
+,Deal_id,Deal_date,First_deal_date,Secret_dwarf_info_1,Secret_dwarf_info_2,Secret_dwarf_info_3,First_default_date,Successful_deals_count,Region,Tavern,Hashed_deal_detail_1,Hashed_deal_detail_2,Hashed_deal_detail_3,Hashed_deal_detail_4,Hashed_deal_detail_5,Hashed_deal_detail_6,Age,Gender,Default
+0,22487461,2015-11-05,2015-08-29,,,,,0.0,Tavern_district_3,7,2.5,-3,8,2.5,-3,5,36.0,Male,0
+1,62494261,2016-08-26,2015-12-21,3.5,-2.0,5.0,2016-07-30,2.0,Tavern_district_4,7,2.5,-3,14,3.5,-3,5,29.0,Female,1
+2,34822849,2016-02-18,2015-11-11,,,,,0.0,Tavern_district_6,7,2.5,-3,8,2.5,-3,5,56.0,Female,0
+3,46893387,2016-04-30,2016-03-22,,,,,0.0,Tavern_district_2,13,2.5,-2,5,2.5,-3,5,27.0,Female,0
+4,67128275,2016-09-19,2016-07-21,,,,,0.0,Tavern_district_4,39,2.5,-3,7,2.5,-3,5,37.0,Female,0
