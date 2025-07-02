@@ -8,7 +8,7 @@
 - Git
 - Pandoc (для конвертации Markdown)
 - scikit-learn
-- Pandas
+- Pandas, Numpy
 - fastapi
 
 ## Шаги установки
