@@ -11,8 +11,11 @@
 
 ## ⚙️ Технический стек
 
-- **Аналитика**: SQL, Python
-- **Визуализация**: Pandas, Matplotlib, Seaborn
+- **Аналитика**:  
+  ![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=postgresql&logoColor=white&style=flat) ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
+
+- **Визуализация**:  
+  ![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white&style=flat) ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?logo=matplotlib&logoColor=white&style=flat) ![Seaborn](https://img.shields.io/badge/-Seaborn-1A3E5B?logo=seaborn&logoColor=white&style=flat)
 
 ## 📊 Ключевые метрики
 

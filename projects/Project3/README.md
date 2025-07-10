@@ -12,11 +12,15 @@
 
 ## ⚙️ Технический стек
 
-- **Языки**: Python
-- **ML/DL**: Scikit-learn, XGBoost, Pandas, NumPy
-- **Визуализация**: Matplotlib, Seaborn
-- **Данные**: Pandas, NumPy, Jupyter Notebook
-- **Инструменты**: Jupyter Notebook, nbconvert, Pandoc, TeX (XeLaTeX)
+- **Языки:** ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
+
+- **ML/DL:** ![Scikit-learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white&style=flat) ![XGBoost](https://img.shields.io/badge/-XGBoost-1A5D78?style=flat) ![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white&style=flat) ![NumPy](https://img.shields.io/badge/-NumPy-013243?logo=NumPy&logoColor=white&style=flat)
+
+- **Визуализация:** ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?logo=matplotlib&logoColor=white&style=flat) ![Seaborn](https://img.shields.io/badge/-Seaborn-1A3E5B?logo=seaborn&logoColor=white&style=flat)
+
+- **Данные:** ![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white&style=flat) ![NumPy](https://img.shields.io/badge/-NumPy-013243?logo=NumPy&logoColor=white&style=flat) ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?logo=jupyter&logoColor=white&style=flat)
+
+- **Инструменты:** ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?logo=jupyter&logoColor=white&style=flat) ![nbconvert](https://img.shields.io/badge/-nbconvert-000000?style=flat) ![Pandoc](https://img.shields.io/badge/-Pandoc-4B0082?style=flat) ![TeX](https://img.shields.io/badge/-XeLaTeX-000000?style=flat)
 
 ## 🎯 Задачи и решения
 

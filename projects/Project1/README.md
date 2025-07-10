@@ -13,12 +13,39 @@
 
 ## ⚙️ Технический стек
 
-- **Языки**: Python
-- **ML/DL**: Scikit-learn, XGBoost, CatBoost, PyTorch (Transformers), PCA, KMeans, TruncatedSVD
-- **NLP**: TF-IDF, BERT (sentence-transformers)
-- **Бэкенд**: FastAPI, SQLAlchemy, Pydantic, Uvicorn
-- **Данные**: PostgreSQL, Pandas
-- **Тестирование**: SciPy (статтесты), A/B-тестирование
+### 🧾 Языки
+
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
+
+### 🤖 ML / DL
+
+![Scikit-learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white&style=flat)
+![CatBoost](https://img.shields.io/badge/-CatBoost-EE9D00?style=flat)
+![XGBoost](https://img.shields.io/badge/-XGBoost-1A5D78?style=flat)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat)
+
+### 📚 NLP
+
+![TF-IDF](https://img.shields.io/badge/-TF--IDF-blue?style=flat)
+![BERT](https://img.shields.io/badge/-BERT-0081A7?style=flat)
+![HuggingFace](https://img.shields.io/badge/-Transformers-FFBF00?logo=huggingface&logoColor=black&style=flat)
+
+### 🖥️ Бэкенд
+
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white&style=flat)
+![Pydantic](https://img.shields.io/badge/-Pydantic-0F172A?style=flat)
+![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-8C1C13?style=flat)
+![Uvicorn](https://img.shields.io/badge/-Uvicorn-4B8BBE?style=flat)
+
+### 💾 Данные и хранилище
+
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white&style=flat)
+
+### 🧪 Тестирование / статистика
+
+![SciPy](https://img.shields.io/badge/-SciPy-8CAAE6?logo=scipy&logoColor=white&style=flat)
+![A/B-тест](https://img.shields.io/badge/-A%2FB%20Test-blueviolet?style=flat)
 
 ## 🎯 Задачи и решения
 
