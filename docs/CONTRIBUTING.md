@@ -11,7 +11,7 @@
 
 ```bash
 git clone https://github.com/ruslanprashchurovich/NextBestChoice.git
-cd RecSys
+cd NextBestChoice
 ```
 
 3. **Создайте ветку** для своей фичи или исправления:

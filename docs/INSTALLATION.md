@@ -29,7 +29,7 @@
 
 ```bash
 git clone https://github.com/ruslanprashchurovich/NextBestChoice.git
-cd RecSys
+cd NextBestChoice
 ```
 
 ---
