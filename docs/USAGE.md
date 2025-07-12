@@ -6,7 +6,7 @@
 
 ## 📊 1. Анализ данных
 
-Перейдите в ноутбук [`notebooks/feature-engineering.ipynb`](RecSysPro/notebooks/feature-engineering_base.ipynb), чтобы провести EDA (исследовательский анализ данных). Внутри вы найдете:
+Перейдите в ноутбук [`notebooks/feature-engineering.ipynb`](https://github.com/ruslanprashchurovich/NextBestChoice/blob/master/RecSysPro/notebooks/feature-engineering_base.ipynb), чтобы провести EDA (исследовательский анализ данных). Внутри вы найдете:
 
 - 📌 Описание и интерпретацию признаков
 - 📈 Визуализацию распределений
@@ -19,7 +19,7 @@
 
 ## 🧠 2. Обучение модели
 
-Запустите ноутбук [`notebooks/end-to_end.ipynb`](RecSysPro/notebooks/end-to_end_ml_base_pipeline.ipynb), который содержит полный ML-пайплайн:
+Запустите ноутбук [`notebooks/end-to_end.ipynb`](https://github.com/ruslanprashchurovich/NextBestChoice/blob/master/RecSysPro/notebooks/end-to_end_ml_base_pipeline.ipynb), который содержит полный ML-пайплайн:
 
 1. **Предобработка**: очистка данных, заполнение пропусков, one-hot/label encoding
 2. **Отбор признаков**: на основе важности, корреляции или SHAP
