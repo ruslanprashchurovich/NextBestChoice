@@ -28,8 +28,8 @@
 ### 1. Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/ruslanprashchurovich/ml-project.git
-cd ml-project
+git clone https://github.com/ruslanprashchurovich/NextBestChoice.git
+cd RecSys
 ```
 
 ---

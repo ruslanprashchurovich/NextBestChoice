@@ -10,8 +10,8 @@
 2. **Склонируйте** форк на локальную машину:
 
 ```bash
-git clone https://github.com/ruslanprashchurovich/ml-portfolio.git
-cd ml-portfolio
+git clone https://github.com/ruslanprashchurovich/NextBestChoice.git
+cd RecSys
 ```
 
 3. **Создайте ветку** для своей фичи или исправления:
