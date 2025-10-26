@@ -300,7 +300,7 @@ def get_recommended_feed_test(id: int, time: datetime, limit: int):
 
 # Обработчик FastAPI
 @app.get("/post/recommendations/", response_model=Response)
-async def recommended_posts(id: int, time: datetime, limit: int = 10) -> Response:
+def recommended_posts(id: int, time: datetime, limit: int = 10) -> Response:
     try:
         exp_group = get_exp_group(user_id=id)
         logger.info(f"We use {exp_group} model!")
